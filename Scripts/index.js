@@ -119,7 +119,7 @@ const displayProductModal = (product) => {
            <i class="fa-solid fa-star" style="color: rgba(255, 212, 59, 1);"></i> Rating: ${product.rating.rate} (${product.rating.count})
           </p>
 
-          <button class="w-full bg-[#553FF6] text-white py-2 rounded">
+          <button class="w-full bg-[#553FF6] text-white py-1 rounded">
             <i class="fa-solid fa-cart-arrow-down"></i> Add to Cart
           </button>
         </div>

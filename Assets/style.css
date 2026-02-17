@@ -1,0 +1,59 @@
+/*--- Custom Colors --- */
+.text-purple{
+    color: #553FF6;
+}
+/*--- Custom Fonts --- */
+html, body{
+    font-family: poppins;
+}
+
+/*--- Menu background hover --- */
+.menu li > a{
+    font-weight: 500;
+    font-size: 18px;
+}
+.menu li > a:hover,
+.menu li > a:focus,
+.menu li > a:active{
+    background-color: white  !important;
+}
+.dropdown-content .menu li > a:hover,
+.dropdown-content .menu li > a:focus, 
+.dropdown-content .menu li > a:active { 
+    background-color: white !important;  
+}
+/* -- Button Icon hover ---*/
+
+.btn-ghost:hover,
+.btn-ghost:focus,
+.btn-ghost:active {
+  background-color: transparent;
+}
+/*-- hero banner section--*/
+.hero-banner{
+    padding-left:120px;
+}
+
+/* Tab*/
+@media (min-width: 425px) and (max-width: 768px) {
+    .hero-banner{
+    padding-left:20px;
+}
+}
+/* Mobile*/
+@media (min-width: 200px) and (max-width: 424px) {
+    .hero-banner{
+    padding-left:10px;
+}
+}
+
+/* -- Icon Section -- */
+
+.fa-headphones:hover, 
+.fa-truck-moving:hover, 
+.fa-shield:hover,
+.fa-rotate:hover {
+    background-color: #553FF6;
+    color: white;
+    border: 2px solid #ffffff;
+}

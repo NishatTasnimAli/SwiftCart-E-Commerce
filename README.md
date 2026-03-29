@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🛒 SwiftCart E-Commerce
 
 SwiftCart is a simple e-commerce web application built using HTML, CSS, and Vanilla JavaScript. It fetches product data from an external API and displays them dynamically with category filtering, product details modal, and cart functionality.
@@ -89,5 +88,3 @@ Scope determines the accessibility of variables.
 - Improve UI/UX design  
 - Add loading spinner  
 - Enhance cart summary section  
-
-EOF
